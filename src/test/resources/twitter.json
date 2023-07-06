@@ -1,0 +1,52 @@
+{
+  "id": "75010_1626130445971734528_1048664",
+  "source": {
+    "id": 75010,
+    "name": "Twitter",
+    "mediatype1": "twitter"
+  },
+  "socialsource": "twitter",
+  "story": "RT @RobbieSTrevino: Black Phyrexian Hulk Design I created back in 2021 working with Wizards of the Coast developing the new Magic The Gathering set “Phyrexia: All Will Be One”. The Hulks being the \"Goliaths\" housing creatures and other countless mechanical abominations. #phyrexia #MagicTheGathering https://t.co/VuU66BoUn4",
+  "status": "published",
+  "parent": "1626065337459560450",
+  "repost": true,
+  "docId": "75010_1626130445971734528",
+  "url": "http://twitter.com/xPerishEDX/statuses/1626130445971734528",
+  "profileId": 1048664,
+  "profileName": "Magic - Twitter",
+  "isGroup": false,
+  "docdate": 1676534685000,
+  "updated": 1676534843000,
+  "obtainedWithQueryString": "\"magic the gathering\" AND magicthegathering",
+  "author": {
+    "id": "245076258",
+    "userName": "xPerishEDX",
+    "displayName": "B",
+    "imageUrl": "https://pbs.twimg.com/profile_images/1551577506880299008/6vxDb548_bigger.jpg",
+    "profileUrl": "http://www.twitter.com/xPerishEDX",
+    "description": "Music enthusiast and Concept Artist. I enjoy spending time with my fiancé, and thinking about drawing\uD83D\uDE2Cinsta: @blm_art",
+    "influence": {
+      "followers": 157
+    },
+    "likes": 30746,
+    "followers": 157.0,
+    "posts": 21186.0,
+    "fullUserName": "B @xPerishEDX"
+  },
+  "mentioned": [
+    {
+      "id": "968100087334227968",
+      "fullUserName": "null"
+    }
+  ],
+  "socialmetrics": {
+    "comments": null,
+    "dislikes": null,
+    "favourites": null,
+    "likes": null,
+    "reach": null,
+    "shares": 20,
+    "views": null,
+    "replies": null
+  }
+}
