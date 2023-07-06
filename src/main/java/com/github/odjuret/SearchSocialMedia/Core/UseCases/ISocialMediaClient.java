@@ -4,6 +4,7 @@ import com.github.odjuret.SearchSocialMedia.Core.Entities.Post;
 
 import java.util.List;
 
-public interface ISearchSocialMedia {
-    List<Post> search(String searchTerm) throws GetSocialMediaException;
+public interface ISocialMediaClient {
+
+    List<Post> Get() throws GetSocialMediaException;
 }
