@@ -21,6 +21,9 @@ public class SearchSocialMedia implements ISearchSocialMedia {
 
         for (Post post : allPosts) {
             if (post.getStory().contains(searchTerm)) {
+
+                post.makeSearchHitsBoldInStory(searchTerm);
+
                 matchedStories.add(post);
             }
         }

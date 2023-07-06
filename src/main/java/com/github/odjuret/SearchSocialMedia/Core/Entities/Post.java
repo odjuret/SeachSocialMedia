@@ -20,14 +20,14 @@ public class Post {
     private double updated;
     private String obtainedWithQueryString;
     private Author author;
-    private List<Mentioned> mentioned = new ArrayList<Mentioned>();
+    private List<Mentioned> mentioned = new ArrayList<>();
     private SocialMetrics socialmetrics;
-    private List<Attachment> attachments = new ArrayList<Attachment>();
-    private List<Url> urls = new ArrayList<Url>();
-    private List<String> tags = new ArrayList<String>();
+    private List<Attachment> attachments = new ArrayList<>();
+    private List<Url> urls = new ArrayList<>();
+    private List<String> tags = new ArrayList<>();
     private String headline;
     private String intro;
-    private List<PodcastHit> podcastHits = new ArrayList<PodcastHit>();
+    private List<PodcastHit> podcastHits = new ArrayList<>();
     private String podcastDuration;
 
 
@@ -180,6 +180,12 @@ public class Post {
     }
     public void setPodcastDuration(String podcastDuration) {
         this.podcastDuration = podcastDuration;
+    }
+
+    public void makeSearchHitsBoldInStory(String searchWord){
+        String boldSearchWord = "<b>" + searchWord + "</b>";
+
+        this.story = this.story.replace(searchWord, boldSearchWord);
     }
 }
 

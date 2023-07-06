@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PodcastHit {
-    private List<Highlight> highlight = new ArrayList<Highlight>();
+    private List<Highlight> highlight = new ArrayList<>();
     private String time;
     public List<Highlight> getHighlight() {
         return highlight;

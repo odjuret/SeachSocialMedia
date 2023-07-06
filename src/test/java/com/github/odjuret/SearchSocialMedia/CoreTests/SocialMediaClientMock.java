@@ -18,7 +18,7 @@ public class SocialMediaClientMock implements ISocialMediaClient {
 
     @Override
     public List<Post> Get() throws GetSocialMediaException {
-        List<Post> allPosts = new ArrayList<Post>();
+        List<Post> allPosts = new ArrayList<>();
 
         try {
             Post twitterPost = testDataReader.read("twitter.json");

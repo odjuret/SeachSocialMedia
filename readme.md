@@ -27,6 +27,6 @@ Contact me if there is any questions.
 A very straightforward task when looking at steps 1, 2 and 3. 
 However, both step 4 and 5 are confusing to read. 
 I interpret step 4 as highlighting where the search matches in the story 
-by making the text larger.
+by adding bold html tags around the matching search word in the story.
 
 

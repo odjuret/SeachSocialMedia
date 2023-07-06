@@ -10,8 +10,8 @@ public class PostRootDto {
     private Integer offset;
     private String keyset;
     private Integer returnedHits;
-    private List<Post> documents = new ArrayList<Post>();
-    private List<Object> facets = new ArrayList<Object>();
+    private List<Post> documents = new ArrayList<>();
+    private List<Object> facets = new ArrayList<>();
     private AggregationsDto aggregations;
     public Integer getTotalHits() {
         return totalHits;
