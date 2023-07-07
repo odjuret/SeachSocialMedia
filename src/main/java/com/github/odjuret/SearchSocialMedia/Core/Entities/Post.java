@@ -30,6 +30,8 @@ public class Post {
     private List<PodcastHit> podcastHits = new ArrayList<>();
     private String podcastDuration;
 
+    private List<Post> mentionedPosts = new ArrayList<>();
+
 
     public String getId() {
         return id;
@@ -182,10 +184,23 @@ public class Post {
         this.podcastDuration = podcastDuration;
     }
 
+
+    public List<Post> getMentionedPosts() {
+        return mentionedPosts;
+    }
+
+    public void setMentionedPosts(List<Post> mentionedPosts) {
+        this.mentionedPosts = mentionedPosts;
+    }
+
     public void makeSearchHitsBoldInStory(String searchWord){
         String boldSearchWord = "<b>" + searchWord + "</b>";
 
         this.story = this.story.replace(searchWord, boldSearchWord);
+    }
+
+    public void addMentionedPost(Post mentionedPost) {
+        this.mentionedPosts.add(mentionedPost);
     }
 }
 

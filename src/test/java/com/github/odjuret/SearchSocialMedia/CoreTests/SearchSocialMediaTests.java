@@ -2,8 +2,8 @@ package com.github.odjuret.SearchSocialMedia.CoreTests;
 
 import com.github.odjuret.SearchSocialMedia.Core.Entities.Post;
 import com.github.odjuret.SearchSocialMedia.Core.UseCases.GetSocialMediaException;
-import com.github.odjuret.SearchSocialMedia.Core.UseCases.ISearchSocialMedia;
-import com.github.odjuret.SearchSocialMedia.Core.UseCases.SearchSocialMedia;
+import com.github.odjuret.SearchSocialMedia.Core.UseCases.ISearchSocialMediaStories;
+import com.github.odjuret.SearchSocialMedia.Core.UseCases.SearchSocialMediaStories;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -12,10 +12,10 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class SearchSocialMediaTests {
-    private final ISearchSocialMedia sut;  // sut = system under test
+    private final ISearchSocialMediaStories sut;  // sut = system under test
 
     public SearchSocialMediaTests() {
-        this.sut = new SearchSocialMedia(new SocialMediaClientMock());
+        this.sut = new SearchSocialMediaStories(new SocialMediaClientMock());
     }
 
     @Test

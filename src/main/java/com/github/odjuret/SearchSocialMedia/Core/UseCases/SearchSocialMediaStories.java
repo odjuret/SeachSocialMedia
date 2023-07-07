@@ -5,11 +5,11 @@ import com.github.odjuret.SearchSocialMedia.Core.Entities.Post;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SearchSocialMedia implements ISearchSocialMedia {
+public class SearchSocialMediaStories implements ISearchSocialMediaStories {
 
     private final ISocialMediaClient socialMediaClient;
 
-    public SearchSocialMedia(ISocialMediaClient socialMediaClient) {
+    public SearchSocialMediaStories(ISocialMediaClient socialMediaClient) {
         this.socialMediaClient = socialMediaClient;
     }
 
